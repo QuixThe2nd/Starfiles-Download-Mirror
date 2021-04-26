@@ -1,0 +1,32 @@
+{
+    "mirrors": {
+        "https://api.starfiles.co/":{
+            "download":"direct/"
+        },
+        "https://api.starfiles.ml/":{
+            "download":"direct/"
+        },
+        "https://starfiles.co/api/":{
+            "download":"direct/"
+        },
+        "https://starfiles.ml/api/":{
+            "download":"direct/"
+        },
+        "https://cdn.starfiles.co/mirror/":{
+            "download":"",
+            "mirrors":"mirrors.json"
+        },
+        "https://cdn.starfiles.ml/mirror/":{
+            "download":"",
+            "mirrors":"mirrors.json"
+        },
+        "https://starfiles.co/cdn/mirror/":{
+            "download":"",
+            "mirrors":"mirrors.json"
+        },
+        "https://starfiles.ml/cdn/mirror/":{
+            "download":"",
+            "mirrors":"mirrors.json"
+        }
+    }
+}

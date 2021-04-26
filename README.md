@@ -45,7 +45,7 @@ Mirror URL: https://mirror.domain.com/mirrors.json
 #### Mirror 2
 URL: https://mirror2.domain.com
 
-Download URL: https://mirror2.domain.com
+Download URL: https://mirror2.domain.com or https://mirror2.domain.com/index.php
 
 Mirror URL: https://mirror2.domain.com/mirrors.json
 

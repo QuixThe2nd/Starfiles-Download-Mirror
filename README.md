@@ -42,6 +42,12 @@ Mirror URL: https://mirror.domain.com/mirrors.json
 - Have multiple domains or subdomains in your mirror.json file, even if the content is identical. This allows for a more robust network and lowers downtime.
 - Don't rename mirrors.json, although the doc allows custom mirror.json files... some mirrors may not be following this rule which would make your mirror inaccessible.
 
+## Usage
+Send a GET request to the download url.
+
+Example:
+https://mirror.domain.com/mirror.php?id={fileid}&name={filename}
+
 ## Notes
 index.php is simply there to demonstrate a possible method of monetisation. If you don't want to show ads (which is recommended as it annoys users), ommit the file and rename mirror.php to index.php.
 

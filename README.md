@@ -55,7 +55,7 @@ Mirror URL: https://mirror2.domain.com/mirrors.json
 - Don't rename mirrors.json, although the doc allows custom mirror.json files... some mirrors may not be following this rule which would make your mirror inaccessible.
 
 ### Notes
-index.php is simple there to demonstrate a possible method of monetisation. If you don't want to show ads (which is recommended as it annoys users), ommit the file and rename mirror.php to index.php.
+index.php is simply there to demonstrate a possible method of monetisation. If you don't want to show ads (which is recommended as it annoys users), ommit the file and rename mirror.php to index.php.
 
 ### Planned Features
 - Output Authentication

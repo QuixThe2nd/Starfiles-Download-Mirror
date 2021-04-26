@@ -17,6 +17,7 @@ Only add trusted mirrors to your mirrors.json file. By default, only official St
 1. Create directory at cache/
 2. Create empty file at cache/index.php
 3. Upload mirrors.json, mirror.php, and index.php
+
 OR: copy this repo
 
 Once the above is done, add your mirror to mirrors.json. This can be done like so:

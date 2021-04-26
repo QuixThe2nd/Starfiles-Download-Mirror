@@ -27,36 +27,24 @@ Once the above is done, add your mirror to mirrors.json. This can be done like s
         "https://mirror.domain.com/":{
             "download":"mirror.php",
             "mirrors":"mirrors.json"
-        },
-        "https://mirror2.domain.com/":{
-            "download":"",
-            "mirrors":"mirrors.json"
         }
     }
 }
 ```
 ### What this means:
-#### Mirror 1
 URL: https://mirror.domain.com
 
 Download URL: https://mirror.domain.com/mirror.php
 
 Mirror URL: https://mirror.domain.com/mirrors.json
 
-#### Mirror 2
-URL: https://mirror2.domain.com
-
-Download URL: https://mirror2.domain.com or https://mirror2.domain.com/index.php
-
-Mirror URL: https://mirror2.domain.com/mirrors.json
-
 ### Recommendations
 - Have multiple domains or subdomains in your mirror.json file, even if the content is identical. This allows for a more robust network and lowers downtime.
 - Don't rename mirrors.json, although the doc allows custom mirror.json files... some mirrors may not be following this rule which would make your mirror inaccessible.
 
-### Notes
+## Notes
 index.php is simply there to demonstrate a possible method of monetisation. If you don't want to show ads (which is recommended as it annoys users), ommit the file and rename mirror.php to index.php.
 
-### Planned Features
+## Planned Features
 - Output Authentication
 - Ability to Upload Files

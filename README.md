@@ -10,6 +10,9 @@ When a file is uploaded to Starfiles, it is stored on Starfiles servers ready to
 ## How is this decentralized
 A mirror is able to add other mirrors to it's mirrors.json file. When a user (or another mirror) tries to download the file, if the mirror does not have a copy of it, it will query the mirrors listed in mirrors.json for the file. Mirrors are able to share their mirror list. What this means is when a hypothetical mirror 1 lists mirror 2 in it's mirrors.json file, all of mirror 1 will actually save mirror 2s mirrors.json file to call from in the future. This creates a network of mirrors that can call eachother to request files. So if Starfiles goes down, the files stay up.
 
+## Crawl Files
+There is a file called `crawl_files.php` in the base directory. You can occasionally run that to automatically retrieve files from other mirrors.
+
 ## Note of Precaution
 Only add trusted mirrors to your mirrors.json file. By default, only official Starfiles mirrors are in your mirrors.json. Any mirror listed in that file has the ability to send any file, without you knowing if it's the right one or not.
 

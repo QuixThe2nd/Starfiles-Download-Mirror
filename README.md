@@ -55,5 +55,4 @@ https://mirror.domain.com/mirror.php?id={fileid}&name={filename}
 index.php is simply there to demonstrate a possible method of monetisation. If you don't want to show ads (which is recommended as it annoys users), ommit the file and rename mirror.php to index.php.
 
 ## Planned Features
-- Output Authentication
 - Ability to Upload Files

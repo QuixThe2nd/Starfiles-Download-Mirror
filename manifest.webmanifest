@@ -1,0 +1,149 @@
+{
+	"name":"Starfiles: File hosting done simple",
+	"short_name":"Starfiles",
+	"description":"File hosting done simple. Accountless file hosting with no limits.",
+	"start_url":"https://starfiles.co",
+	"theme_color":"#5bbad5",
+	"background_color":"#5bbad5",
+	"display_override":[
+		"minimal-ui"
+	],
+	"display":"standalone",
+	"orientation":"any",
+	"categories":[
+		"productivity",
+		"utilities",
+		"security",
+		"business",
+		"file",
+		"files",
+		"file sharing",
+		"social",
+		"encryption",
+		"privacy",
+		"send files"
+	],
+	"scope":"/",
+	"icons":[
+		{
+			"src":"images/logomaskable-8.png",
+			"type":"image/png",
+			"sizes":"8x8",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-16.png",
+			"type":"image/png",
+			"sizes":"16x16",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-32.png",
+			"type":"image/png",
+			"sizes":"32x32",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-64.png",
+			"type":"image/png",
+			"sizes":"64x64",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-70.png",
+			"type":"image/png",
+			"sizes":"70x70",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-96.png",
+			"type":"image/png",
+			"sizes":"96x96",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-120.png",
+			"type":"image/png",
+			"sizes":"120x120",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-128.png",
+			"type":"image/png",
+			"sizes":"128x128",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-144.png",
+			"type":"image/png",
+			"sizes":"144x144",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-150.png",
+			"type":"image/png",
+			"sizes":"150x150",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-152.png",
+			"type":"image/png",
+			"sizes":"152x152",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-167.png",
+			"type":"image/png",
+			"sizes":"167x167",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-180.png",
+			"type":"image/png",
+			"sizes":"180x180",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-192.png",
+			"type":"image/png",
+			"sizes":"192x192",
+			"purpose":"any maskable"
+		},
+		{
+			"src":"images/logomaskable-512.png",
+			"type":"image/png",
+			"sizes":"512x512",
+			"purpose":"any maskable"
+		}
+	],
+	"share_target":{
+		"action":"/api/upload/upload_file",
+		"method":"POST",
+		"enctype":"multipart/form-data",
+		"params":{
+			"files":[
+				{
+					"name":"upload",
+					"accept":[
+						"*/*"
+					]
+				}
+			]
+		}
+	},
+	"shortcuts":[
+		{
+			"name":"Open Starfiles",
+			"short_name":"Open",
+			"description":"Open the Starfiles app",
+			"url":"/?utm_source=homescreen",
+			"icons":[
+				{
+					"sizes":"192x192",
+					"src":"images/logomaskable-192.png",
+					"type":"image/png"
+				}
+			]
+		}
+	]
+}

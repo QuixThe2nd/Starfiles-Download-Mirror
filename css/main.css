@@ -1,0 +1,241 @@
+html, body {
+	font-family: Roboto, sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+	text-align: center;
+	text-shadow: 5px 5px 15px #2a2b2c22;
+	width: 100%;
+	background: #f9f9f9;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh
+}
+header, footer {
+	padding: 10px
+}
+header{
+    background: linear-gradient(to right,#3282b8,#0f4c75);
+    color: #fff;
+}
+.stickyheader {
+    background: linear-gradient(to right,#3282b8,#0f4c75);
+	display: flex;
+    align-items: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0
+}
+footer{
+    /* background: #323642; */
+    background: #27292f;
+	color: #f9f9f9
+}
+a {
+	text-decoration: none
+}
+.simpleform {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px 0;
+	width: 100%
+}
+.simpleform input[type=email], .simpleform input[type=password], .simpleform input[type=search], .simpleform input[type=text], .simpleform input[type=url], .simpleform .bubble {
+	margin: 0;
+	background: #fff;
+	max-width: 288px;
+	width: calc(100% - 94px);
+	border-radius: 0
+}
+
+.simpleform button, .simpleform input[type=submit], .simpleform .btn, .simpleform .btn-small {
+	margin: 0;
+	color: #fff;
+	border: 0;
+	padding: 8px 6px;
+	border-radius: 0
+}
+
+.simpleform .btn {
+	font-size: 13px
+}
+.simpleform button, .simpleform input[type=submit], .simpleform select {
+	-webkit-appearance: none;
+	outline: 0
+}
+.simpleform>:not([style*="display: none"]):first-child {
+	border-radius: 0;
+	border-bottom-left-radius: 2vh;
+	border-top-left-radius: 2vh
+}
+
+.simpleform>:not([style*="display: none"]):last-child {
+	border-radius: 0;
+	border-bottom-right-radius: 2vh;
+	border-top-right-radius: 2vh
+}
+.simpleform select {
+	padding: 6.5px 6px;
+	border-radius: 0
+}
+.bubble {
+	border: 0;
+	border-radius: 2vh;
+	box-shadow: 0 0 2.5px 0 #b3b3b3;
+	margin: 10px;
+	outline-width: 0;
+	padding: 8px 16px
+}
+header a:visited {
+	color: #fff
+}
+
+.button-group .btn {
+	margin: 5px 0
+}
+.btn {
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	outline: 0;
+	padding: 10px;
+	transition: 350ms ease;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content
+}
+.btn:hover {
+	box-shadow: 0 10px 20px #00000026
+}
+.btn-small {
+	border-radius: 8px;
+	font-size: 16px;
+	padding: 4px;
+	margin: 1px
+}
+input.btn {
+	-webkit-appearance: none;
+	border: 0
+}
+.recents {
+	grid-template-columns: repeat(auto-fill, 85%);
+	grid-gap: 5px
+}
+.recents .file_list {
+	display: grid;
+	justify-items: center;
+    grid-template-columns: repeat(auto-fill, 85%);
+    grid-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.file_list a {
+	padding: 5px 20px;
+	box-shadow: 1px 1px 5px #2a2b2c4d;
+	border-radius: 14px;
+	width: calc(100% - 40px);
+	word-break: break-all
+}
+label{
+    display: none;
+}
+.badge {
+    display:inline-block;
+	border-radius: 3px;
+	font-size: 11px;
+	line-height: 18px;
+	margin: 0 0 5px;
+	padding: 1px 8px 1px 6px;
+	vertical-align: top;
+	font-weight: 500;
+    color: white
+}
+.formcontainer input, select{
+    border:1.5px solid #3282b8
+}
+header h1 {
+    margin: 10px 8px;
+}
+h1 {
+    font-weight: 500
+}
+@media (prefers-color-scheme: dark){
+    html, body, input, textarea, select, button, .pastetext {
+        background: #323642;
+        color: #fff;
+    }
+    .file_list a {
+        box-shadow: 1px 1px 4px 1px #2b2b2b9c;
+    }
+    .simpleform .bubble, .simpleform input[type=email], .simpleform input[type=password], .simpleform input[type=search], .simpleform input[type=text], .simpleform input[type=url] {
+        background: #2a2e38;
+    }
+    ::placeholder, .bubble {
+        color: #fff;
+    }
+}
+.simpleform input[type=submit], .simpleform button, .simpleform .btn {
+    background: #3282b8;
+}
+.btn, .btn:visited{
+    color: #fff;
+    background: #3282b8;
+}
+
+h2 {
+	font-size: 25px;
+	margin: 5px 0 0;
+	font-weight: 500
+}
+
+h4 {
+	margin: 5px
+}
+
+p {
+	font-size: 15px;
+	margin: 10px;
+	overflow-wrap: anywhere;
+	font-weight: 400
+}
+a, a:visited, .link{
+    color:#57a0ff
+}
+.headerbutton {
+    background: #ffffff18;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 0;
+    padding: 4px 12px;
+}
+.badge.badge-medium {
+    font-size: 12px;
+    padding: 2px 9px 2px 7px;
+}
+.facebook {
+    background: #3b5998;
+}
+.twitter {
+    background: #1da1f2;
+}
+.upload{
+    display: flex;
+    background: #3282b8;
+    border-radius: 15px;
+    height: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    transition: .3s;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,19 +1,19 @@
 {
     "mirrors": {
         "https://api.starfiles.co/":{
-            "download":"direct/",
+            "download":"directhash/",
             "public":"public.json"
         },
         "https://api.starfiles.ml/":{
-            "download":"direct/",
+            "download":"directhash/",
             "public":"public.json"
         },
         "https://starfiles.co/api/":{
-            "download":"direct/",
+            "download":"directhash/",
             "public":"public.json"
         },
         "https://starfiles.ml/api/":{
-            "download":"direct/",
+            "download":"directhash/",
             "public":"public.json"
         },
         "https://cdn.starfiles.co/mirror/":{
